@@ -27,7 +27,7 @@ nav li {
 }
 
 nav li a {
-    /* font-size: 1.2rem; */
+    font-size: 1.2rem;
     text-decoration: none;
     padding: 13px 30px;
     color: white;
@@ -50,11 +50,12 @@ nav li a:hover {
     height: 300px;
     font-family: 'ZCOOL QingKe HuangYou';
     font-size: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 
 #introSection h3 {
     color: #119a13;
+    padding-bottom: 18px;
 }
 
 #sponsorSection {
