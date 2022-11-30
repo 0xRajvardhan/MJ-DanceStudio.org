@@ -5,7 +5,22 @@ html
     style
       include ../static/style.css
   body
-    nav#navbar.top 
-        |this
+    nav
+        ul
+            li #[a(href = '/') Home]
+            li #[a(href = '/') About]
+            li #[a(href = '/') Services]
+            li #[a(href = '/') Class Info]
+            li #[a(href = '/') Contact Us]
+        
+section#introSection
+    h3 Welcome to MJ Dance Academy!
+    div “Dance is the hidden language of the soul.” – Martha Graham
+section#sponsorSection
+    h2 Our Sponsors
+    
+footer
+    |Our footer here 
+    
     script
       include ../static/index.js

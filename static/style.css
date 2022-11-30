@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 13px 14px;
+    position: relative;
+    background-color: black;
+    font-family: 'Yeon Sung';
+    box-shadow: 0 0 16px #119a13;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    /* font-size: 1.2rem; */
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+
+nav li a:hover {
+    transition: 0.3s;
+    color: #119a13;
+}
+
+#introSection {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../static/danceAcad.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+#introSection h3 {
+    color: #119a13;
+}
+
+#sponsorSection {
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+
+#sponsorSection h2 {
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Yeon Sung';
+}
+
+
+footer {
+    background-color: black;
+    height: 100px;
+}
