@@ -135,7 +135,7 @@ nav li a:hover {
 }
 
 #sponsorSection {
-    height: 300px;
+    height: 400px;
     background-color: black;
     color: white;
 }
@@ -148,7 +148,7 @@ nav li a:hover {
 }
 
 #sponsors {
-    height: 191px;
+    height: 145px;
     max-width: 1000px;
     margin: 27px auto;
 }
@@ -161,6 +161,11 @@ nav li a:hover {
 
 footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     height: 60px;
+    font-size: 20px;
+    font-family: 'Yeon Sung';
+    padding: 25px;
 }
