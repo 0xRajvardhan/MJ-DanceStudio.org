@@ -8,11 +8,14 @@ html
   body
     nav
         ul
-            li #[a(href = '/') Home]
-            li #[a(href = '/') About]
-            li #[a(href = '/') Services]
-            li #[a(href = '/') Class Info]
-            li #[a(href = '/') Contact Us]
+          #logo 
+            img(src="../static/logo.png", alt="logo")
+            |MJDA
+          li #[a(href = '/') Home]
+          li #[a(href = '/') About]
+          li #[a(href = '/') Services]
+          li #[a(href = '/') Class Info]
+          li #[a(href = '/') Contact Us]
         
     section#introSection
       h3 Welcome to MJ Dance Academy!
@@ -23,10 +26,25 @@ html
       .cardSection
         .card 
           h3 Dance Perfection
+          .card-box 
+            .card-img
+              img(src="../static/dance1.png", alt="")
+            .card-content 
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit.
         .card 
           h3 Various Dance Style
+          .card-box 
+            .card-img
+              img(src="../static/dance2.png", alt="")
+            .card-content 
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit.
         .card 
           h3 Experts teaching
+          .card-box 
+            .card-img
+              img(src="../static/dance3.png", alt="")
+            .card-content 
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
     section#sponsorSection
       h2 Our Sponsors

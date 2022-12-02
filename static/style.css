@@ -5,6 +5,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: left;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 50px;
+}
+
+#logo img {
+    height: 42px;
+    filter: invert(1);
 }
 
 nav {
@@ -19,7 +35,8 @@ nav {
 nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 nav li {
@@ -88,9 +105,34 @@ nav li a:hover {
 
 .card h3 {
     text-align: center;
-    margin: 12px;
+    margin: 0 12px;
+    margin-top: 24px;
 }
 
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-content {
+    padding: 0 10px;
+}
+
+.card-content p {
+    font-size: 15px;
+}
+
+.card-img img {
+    height: inherit;
+    filter: invert(1);
+}
 
 #sponsorSection {
     height: 300px;
