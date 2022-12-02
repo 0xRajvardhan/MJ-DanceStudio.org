@@ -8,7 +8,7 @@
 }
 
 nav {
-    padding: 13px 14px;
+    padding: 18px 14px;
     position: relative;
     background-color: black;
     font-family: 'Yeon Sung';
@@ -47,16 +47,50 @@ nav li a:hover {
     background: url(../static/danceAcad.jpg);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 425px;
     font-family: 'ZCOOL QingKe HuangYou';
     font-size: 30px;
     padding-bottom: 50px;
 }
 
 #introSection h3 {
+    font-family: Arial, Helvetica, sans-serif;
     color: #119a13;
     padding-bottom: 18px;
 }
+
+#missionSection {
+    height: 313px;
+    background-color: black;
+    color: white;
+}
+
+#missionSection .cardSection {
+    margin: auto;
+    width: 67%;
+}
+
+#missionSection h2 {
+    font-size: 42px;
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Yeon Sung';
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 22px;
+    height: 209px;
+}
+
+.card h3 {
+    text-align: center;
+    margin: 12px;
+}
+
 
 #sponsorSection {
     height: 300px;
@@ -65,11 +99,11 @@ nav li a:hover {
 }
 
 #sponsorSection h2 {
+    font-size: 42px;
     text-align: center;
-    padding-top: 23px;
+    padding-top: 35px;
     font-family: 'Yeon Sung';
 }
-
 
 footer {
     background-color: black;
