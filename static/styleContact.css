@@ -1,0 +1,47 @@
+body {
+    background: black;
+}
+
+h1 {
+    padding-top: 40px;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput {
+    width: 40%;
+    font-size: 16px;
+    padding: 9px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+
+.btn {
+    background: black;
+    padding: 10px 14px;
+    box-shadow: 0 0 8px #119a13;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #119a13;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.contactContainer {
+    min-height: 80vh;
+}
