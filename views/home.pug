@@ -1,11 +1,13 @@
-//- index.pug
-doctype html
-html
-  head
-    title Mj-DanceStudio
+extends layout.pug
+
+block scripts 
+    script(src="../static/index.js") 
+
+block style 
     style
       include ../static/style.css
-  body
+
+block content 
     nav
         ul
           #logo 
@@ -53,9 +55,3 @@ html
           img(src="../static/jbl.png", alt="jbl", class= "spImage")
           img(src="../static/Premier.png", alt="premier pro", class= "spImage")
           img(src="../static/yamaha.png", alt="yamaha", class= "spImage")
-    
-    footer
-      |Copyright © 2022 MJ-Studio.org | All rights reserved
-    
-    script
-      include ../static/index.js
